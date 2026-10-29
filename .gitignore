@@ -1,0 +1,35 @@
+    # Python environments and interpreter artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Dataset files and generated training/evaluation artifacts
+/data/
+/checkpoints/
+/corruptions/
+/plots/
+/results/
+
+# Model weights and exported model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Logs, temporary files, and office lock files
+*.log
+*.tmp
+*.temp
+.~lock.*#
+Thumbs.db
+Desktop.ini
